@@ -1,0 +1,78 @@
+body {
+  font-family: 'Press Start 2P', cursive;
+  text-align: center;
+  background: #f0f8ff;
+  color: #333;
+  margin: 0;
+  padding: 2rem;
+}
+
+.container {
+  max-width: 500px;
+  margin: auto;
+}
+
+.favoritos-lista {
+  margin-top: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+  justify-content: center;
+}
+
+.favorito-card {
+  border: 2px solid #ffcb05;
+  border-radius: 10px;
+  padding: 10px;
+  width: 120px;
+  background-color: #fff9c4;
+  box-shadow: 0 3px 8px rgba(0,0,0,0.1);
+  cursor: pointer;
+  transition: transform 0.2s;
+  text-align: center;
+}
+
+.favorito-card:hover {
+  transform: scale(1.05);
+}
+
+.favorito-card img {
+  width: 80px;
+  margin-bottom: 8px;
+}
+
+button {
+  background-color: #ffcb05;
+  color: #2a75bb;
+  border: 3px solid #2a75bb;
+  padding: 10px 20px;
+  font-weight: bold;
+  cursor: pointer;
+  border-radius: 10px;
+  margin-bottom: 1rem;
+  transition: 0.3s;
+}
+
+button:hover {
+  background-color: #fff;
+  color: #ff0000;
+}
+
+.card {
+  background-color: #ffffff;
+  border: 3px solid #2a75bb;
+  border-radius: 15px;
+  padding: 1.5rem;
+  box-shadow: 0 6px 12px rgba(0,0,0,0.15);
+}
+
+img {
+  width: 150px;
+  height: auto;
+  margin-bottom: 1rem;
+}
+
+p {
+  font-size: 12px;
+  line-height: 1.5;
+}
